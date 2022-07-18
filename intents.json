@@ -1,0 +1,106 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "Hello",
+                "How are ya",
+                "Hola",
+                "Is anyone there?",
+                "Wsp"
+
+            ],
+            "responses": [
+                "Hey :)",
+                "Hi there, what can I do for you?",
+                "Hello, thanks for cheking in",
+                "Hey there, how can I help you?",
+                "Wsg with it"
+            ]
+        
+        },
+        {
+            "tag": "goodbye",
+            "patterns":["Bye","See you later", "Goodbye" ],
+            "responses": [
+                "See you later, thanks for stopping by",
+                "Have a nice blessed day",
+                "Goodbye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Thanks a lot!"],
+            "responses": ["Of course!", "My pleasure :)", "Happy to help!"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "What items do you have?",
+                "What kind of items are there?",
+                "What do you sell?"
+            ],
+            "responses":[
+                "We sell that good ;)",
+                "You broke and crummy",
+                "You want it the ocky way;)"
+
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastrecard?",
+                "Do you take cash?",
+                "Can I pay with PayPal?"  
+            ],
+            "responses": [
+                "We accept PayPal,Venmo, CashApp Mastercard ands VISA! ",
+                " We mostly accept Credit Cards, but cash is acceptable only at our in-person shops."
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does it take to deliver?",
+                "How much do delivery fees costs?"
+            ],
+            "responses": [
+                " Delivery takes 3-5 buisness days.",
+                "Shipping takes 3-5 buisness days."
+            ]
+        },
+        {
+            "tag": "funny joke",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know any jokes"
+            ],
+            "responses": [
+                "What did the wave say to the other wave? Nothing, it just waved;)",
+                "Your life"
+            ]
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "Wtf",
+                "Whats up guys,its quandale dingle here ",
+                "Quandavious Boochiesmith",
+                "Rate me 1-10",
+                "We got a problem?"
+            ],
+            "responses":[
+                "Yummy",
+                "REHEHEHEHEHHEEHEHEHEHEH",
+                "My cousin Quandale Dingle just put a goofy ahh baby in the microwave for 7 minutes until it wnt KABOOM!",
+                "You looking yummy"
+                
+            ]
+        }
+    ]
+}
